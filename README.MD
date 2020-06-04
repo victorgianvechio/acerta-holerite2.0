@@ -5,13 +5,17 @@ Divide um arquivo _.pdf_ e extraí informações internas para renomear os arqui
 ## Requisitos importantes
 
 Node version >= 12.0.0
+
 Python version 2.7
 
 **Executar como administrador**
+
 npm install --global --production windows-build-tools
+
 npm config set msvs_version 2017 -global
 
 **Se tiver mais de uma versão do Python instalada**
+
 npm config set python python2.7
 
 ## Configurar .env
@@ -55,6 +59,7 @@ QTDE_CHAR_DIRF=14
 PAGE_NAME_DIRF="Pág."
 MAX_PAGE_DIRF=2
 
+# Layouts
 LAYOUTS="Funcionario,Telefone,Outro,Dirf"
 ```
 
