@@ -1,0 +1,21 @@
+# Log files
+*.log
+
+# Dependency directories
+node_modules
+
+# Build directory
+build
+
+# Environment files
+*.env
+
+# Text files
+*.txt
+
+# Executables
+*.exe
+
+# PDF files
+*.pdf
+

@@ -1,0 +1,125 @@
+<div class="pane-group">
+    <div class="pane">
+        <h2>Acerta Holerite</h2>
+
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <div class="container left-side-btn">
+                        <label for="btnFile">Arquivo</label>
+                        <button
+                            type="button"
+                            id="btnFile"
+                            class="btn btn-large btn-default"
+                        >
+                            <span class="icon icon-folder"></span>
+                        </button>
+                    </div>
+
+                    <div class="container right-side-btn">
+                        <label for="filePath">:</label>
+                        <input
+                            type="text"
+                            name="filePath"
+                            id="filePath"
+                            class="form-control"
+                            value=""
+                            readonly
+                        />
+                        <input id="fileLocation" type="file" />
+                    </div>
+                </div>
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <div class="form-group">
+                    <div class="container left-side-btn">
+                        <label for="btnOutput">Diretório</label>
+                        <button
+                            type="button"
+                            id="btnOutput"
+                            class="btn btn-large btn-default"
+                        >
+                            <span class="icon icon-folder"></span>
+                        </button>
+                    </div>
+
+                    <div class="container right-side-btn">
+                        <label for="outputPath">:</label>
+                        <input
+                            type="text"
+                            name="outputPath"
+                            id="outputPath"
+                            class="form-control"
+                            value=""
+                            readonly
+                        />
+                        <input
+                            id="outputLocation"
+                            type="file"
+                            multiple
+                            webkitdirectory
+                            style="display: none"
+                        />
+                    </div>
+                </div>
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <div class="form-group">
+                    <div class="container left-side-btn">
+                        <label for="layout">Layout: </label>
+                    </div>
+                    <div class="container right-side-btn">
+                        <select id="layout" class="form-control"></select>
+                    </div>
+                </div>
+
+                <br />
+                <br />
+
+                <!-- <label for="layout">Layout</label>
+                <select id="layout" name="layout" class="form-control">
+                    <option value="holerite">Holerite</option>
+                    <option value="ferias">Férias</option>
+                </select> -->
+
+                <div class="container btn-container">
+                    <div class="form-actions">
+                        <!-- <button
+                            type="button"
+                            id="btnConfig"
+                            class="btn btn-large btn-default"
+                        >
+                            <span class="icon icon-cog"></span>
+                        </button> -->
+
+                        <button
+                            type="button"
+                            id="btnSair"
+                            class="btn btn-large btn-negative"
+                        >
+                            Sair
+                        </button>
+
+                        <button
+                            type="button"
+                            id="btnGerar"
+                            class="btn btn-large btn-positive"
+                        >
+                            Gerar
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
