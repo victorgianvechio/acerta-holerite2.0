@@ -4,7 +4,7 @@ Divide um arquivo _.pdf_ e extraí informações internas para renomear os arqui
 
 ## Requisitos importantes
 
-Node version >= 12.0.0
+Node version  11.0.0
 
 Python version 2.7
 
