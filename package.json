@@ -19,7 +19,7 @@
         "url": "https://github.com/victorgianvechio/acerta-holerite.git"
     },
     "dependencies": {
-        "electron": "^5.0.1",
+        "electron": "^9.4.0",
         "date-pt-br": "^1.0.5",
         "dotenv": "^8.0.0",
         "electron-progressbar": "^1.2.0",
