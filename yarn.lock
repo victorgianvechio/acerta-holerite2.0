@@ -1295,10 +1295,10 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-hummus@^1.0.104:
-  version "1.0.108"
-  resolved "https://registry.yarnpkg.com/hummus/-/hummus-1.0.108.tgz#167e66f3966fa3a2f5985c420bb7f75f6cdd4658"
-  integrity sha512-R9/WJvfo0BLTqVLKee8UNBJMVjM5Qme2lJ6CkQDLmoisSrKzHsOd92b29/bp1S/GhVOEpkknyfVABWLB9J5iPg==
+hummus@^1.0.111:
+  version "1.0.111"
+  resolved "https://registry.yarnpkg.com/hummus/-/hummus-1.0.111.tgz#5056ae00e2361152667acc0a87c4cd3f3de3de51"
+  integrity sha512-cy8B7nTYOWBqoLmxjRmB1gfZs1kcVxWnsRjCeQWoLovxWPpWq061R5DWWJQ8k/qj8ix4go160sJriqOvkPRCng==
   dependencies:
     node-pre-gyp "^0.10.0"
 
